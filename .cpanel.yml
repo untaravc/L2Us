@@ -1,4 +1,5 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/u9090851/legal_2us/
+    - export DEPLOYPATH=/home/u9090851/
+    - /bin/cp -R legal_2us $DEPLOYPATH
